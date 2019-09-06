@@ -3,7 +3,7 @@ package LäxaRepetition;
 public class RekursivReverse {
 
 	public static void main(String[] args) {
-		System.out.println(reverse("Hasse"));
+		System.out.println(reverse("Luddig Lava"));
 	}
 	
 	public static String reverse(String Word) {
