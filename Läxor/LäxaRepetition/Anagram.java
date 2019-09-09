@@ -13,7 +13,26 @@ public class Anagram {
 			word = str;
 		}
 		
-		System.out.println(word);
+		if (str.equals(word)) {
+			System.out.println(str);
+		} else {
+			System.out.println(str);
+			
+		
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+		}
+		
 	}
+	
+
 	
 }
