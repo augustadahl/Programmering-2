@@ -73,8 +73,7 @@ public class CalcButton extends Group{
 	}
 	
 	private void pressed() {
-		System.out.println(function);
-		
+		CalcEngine.input(function);
 	}
 	
 	
