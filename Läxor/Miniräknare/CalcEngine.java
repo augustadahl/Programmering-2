@@ -52,9 +52,12 @@ public class CalcEngine {
 			}
 			break;
 		case ".":
-			if (!InputString.contains(".")) {
-				addnum(in);
+			if (!InputString.equals("")) {
+				if (!InputString.contains(".")) {
+					addnum(in);
+				}
 			}
+			
 			break;
 		default:
 			addnum(in);
