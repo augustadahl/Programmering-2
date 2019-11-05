@@ -1,7 +1,5 @@
 package Miniräknare;
 
-import com.sun.java.swing.plaf.windows.resources.windows;
-
 import javafx.application.Application;
 import javafx.scene.Group;
 import javafx.scene.Scene;
@@ -29,10 +27,12 @@ public class MainCalc extends Application {
 			root.getChildren().add(button);
 		}
 		
+		settext("0");
+		
 	}
 	
-	public static void settext(Double in) {
-		window.set(Double.toString(in));
+	public static void settext(String in) {
+		window.set(in);
 	}
 
 	public static void main(String[] args) {
