@@ -3,6 +3,7 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="Introduktionsvecka"/>
 	<classpathentry kind="src" path="Läxor"/>
+	<classpathentry kind="src" path="Övningsuppgifter"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
